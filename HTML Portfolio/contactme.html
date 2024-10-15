@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflio Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            margin-top: 13px;
+            font-size: 23px;
+        }
+        input{
+            height: 30px;
+            width: 250px;
+            margin-top: 7px;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: blueviolet;">Portflio Website</h1>
+    <header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contactme.html">Contact</a>
+    </nav>
+    </header><br><br>
+    <main>
+        <form action="/action.nodejs" style="text-align: center;">
+            <input type="text" placeholder="Type Something Here..."><br><br>
+            <input type="password" placeholder="Enter your Password..."><br><br>
+            <input type="date">
+    
+            <label for="101"> <br><br>
+                <input type="radio" name="class" value="Class 10" id="101">Class 10
+            </label>
+    
+            <label for="102">
+                <input type="radio" name="class" value="Class 11" id="102">Class 11
+            </label>
+    
+            <label for="120"><br><br>
+                <input type="checkbox" name="subject" id="120" value="Math">Math
+            </label>
+    
+            <label for="121">
+                <input type="checkbox" name="subject" id="121" value="Physics">Physics
+            </label>
+    
+            <label for="122">
+                <input type="checkbox" name="subject" id="122" value="Computer">Computer
+            </label>
+    
+            <label for="123">
+                <input type="checkbox" name="subject" id="123" value="Chemistry">Chemistry
+            </label>
+    
+            <label for="135"><br><br>
+                <select name="skills" id="135">
+                    <option value="Html">Html</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Bootstrap">Bootstrap</option>
+                </select>
+            </label>
+    
+            <label for="140"><br><br>
+            <textarea name="feedback" rows="6" id="140" placeholder="Share your Feedback"></textarea><br><br>
+    
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflio Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            margin-top: 13px;
+            font-size: 23px;
+        }
+        .home-img{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .pi{
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid rgb(161, 23, 161);
+        }
+        .sic-link{
+            display: flex;
+            justify-content: center;
+            margin-top: 190px;
+        }
+        .sic-link .media{
+            margin-left: 15px;
+        }
+        #git{
+            position: relative;
+            right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: blueviolet;">Portflio Website</h1>
+    <header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="contactme.html">Contact</a>
+    </nav>
+    </header>
+    <main>
+        <section class="home-img">
+            <img class="pi" src="hamza1.jpeg" alt="profile_img">
+        </section>
+        <section class="sic-link">
+            <a class="media" href="https://www.instagram.com/"><img src="https://tse2.mm.bing.net/th?id=OIP.WoArfQlK6JXbwNzVd9LxiQHaHa&pid=Api&P=0&h=220"alt="Instagram"></a>
+            <a class="media" href="https://www.facebook.com/"><img src="https://tse4.mm.bing.net/th?id=OIP.khs_zU8Rk11Jfs7JRXqwGwHaHa&pid=Api&P=0&h=220"alt="Facebook"></a>
+            <a class="media" href="https://www.linkedin.com/"><img src="https://tse3.mm.bing.net/th?id=OIP.ozDiSGJlUqI6815cRlJiNAHaHa&pid=Api&P=0&h=220"alt="Linkedln"></a>
+            <a class="media" id="git" href="https://github.com/"><img src="https://tse4.mm.bing.net/th?id=OIP.8SVgggxQcO5L6Dw_61ac4QHaEK&pid=Api&P=0&h=220"alt="Github"></a>
+        </section>
+    </main>
+</body>
+</html>
